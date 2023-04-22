@@ -11,10 +11,19 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include <unistd.h>
 
-int	ft_isalpha(int c)
+int	ft_isalpha(char c)
 {
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && "x" <= 'z')) //mientras mi char es alfabetico
+	char i;
+	i = c;
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && 'z')) //mientras mi char es alfabetico
 		return (1); //devuele 1 que es verdadero
 	return (0); // si no devuelve 0 que es falso
+}
+
+int main(void)
+{
+	printf("%d", ft_isalpha, ('1'));
+	return(0);
 }
