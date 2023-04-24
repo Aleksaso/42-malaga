@@ -10,20 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
+#include "libft"
+
 
 int	ft_isalpha(char c)
 {
-	char i;
-	i = c;
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && 'z')) //mientras mi char es alfabetico
+	 //mientras mi char es alfabetico
 		return (1); //devuele 1 que es verdadero
 	return (0); // si no devuelve 0 que es falso
 }
 
-int main(void)
-{
-	printf("%d", ft_isalpha, ('1'));
-	return(0);
-}
