@@ -10,26 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft"
 
 int	ft_strlen(char *str)
 
 {
-	int	i;
-
-	i = 0;
-	while (str[i] != '\0')
-	{
-		i++;
-	}
+	
 	return (i);
 }
 
 int	main(void)
 {
-	char	*array;
-
-	array = "Hola";
-	printf("%d", ft_strlen(array));
+	
 	return (0);
 }
