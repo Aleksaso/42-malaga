@@ -10,26 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
-int	ft_strlen(char *str)
+int	ft_strlen(....)
 
 {
-	int	i;
 
-	i = 0;
-	while (str[i] != '\0')
 	{
-		i++;
+		
 	}
 	return (i);
 }
 
-int	main(void)
+int	
 {
-	char	*array;
 
-	array = "Hola";
-	printf("%d", ft_strlen(array));
 	return (0);
 }
+
+/* "libft.h" es la biblioteca para las funciones con rutinas de caracteres ejemplo:...
+	Comprueba y calcula la longitud de una cadena s....
+	La strlen () devuelve el número de caracteres que preceden al carácter NUL de terminación.
+ 	que preceden a NUL o maxlen de terminación , el que sea menor */
