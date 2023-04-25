@@ -32,3 +32,7 @@ int
 	Comprueba y calcula la longitud de una cadena s....
 	La strlen () devuelve el número de caracteres que preceden al carácter NUL de terminación.
  	que preceden a NUL o maxlen de terminación , el que sea menor */
+	
+
+
+
