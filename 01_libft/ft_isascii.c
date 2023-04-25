@@ -29,3 +29,6 @@ int
 	
 	return (0);
 }
+/* "libft.h" es la biblioteca para las funciones con rutinas de caracteres ejemplo:...
+	Comprueba si un caráter es un caráter de la tabla ASCII, que usando una escala decimal de 0 a 127
+	0 si el caráter es falso y 1 si el caráter es verdadero */
