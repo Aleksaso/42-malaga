@@ -10,27 +10,22 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
+#include "libft.h"
+
 
 int	ft_isascii(char *str)
 
 {
-	int	i;
-
-	i = 0;
-	while ((str[i] != '\0'))
+	
 	{
-		if ((str[i] >= 48 && str[i] <= 127))
-			i++;
-		else
+		
 			return (0);
 	}
 	return (1);
 }
 
-int	main(void)
+int	
 {
-	printf("%i", ft_isascii("38"));
+	
 	return (0);
 }
