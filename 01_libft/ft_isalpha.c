@@ -10,17 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
-#include <stdio.h>
+#include "libft.h"
+
 
 int	ft_isalpha(int c)
 {
-	char a = c;
-	if ((a >= 'A' && a <= 'Z') || (a >= 'a' && a <= 'z'))
-	
-		return (1);
 
-	return (0);
 
 }
 
@@ -30,6 +25,7 @@ int	main(void)
 	return (0);
 }
 
-	/*ctype.h es la biblioteca para las funciones con rutinas de caracteres ejemplo: isalnum,
-	isalpha, isascii, isblank, iscntrl, isdigit, isgraph, islower, isprint, ispunct, isspace, isupper, isxdigit
-	L 23 si no devuelve 0 que es falso, L 21 devuele 1 que es verdadero, L 19 mientras mi char es alfabetico */
+	/* "libft.h" es la biblioteca para las funciones con rutinas de caracteres ejemplo:...
+	L 19 mientras mi char es alfabetico.
+	L 21 Me devuele 1 que es verdadero. 
+	L 23 si no, devuelve 0 que es falso. */
