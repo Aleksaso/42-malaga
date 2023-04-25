@@ -12,16 +12,13 @@
 
 #include "libft.h"
 
-
 int	ft_isalpha(int c)
 {
 
-
 }
 
-int	main(void)
+int	
 {
-	printf("%d", ft_isalpha('64'));
 	return (0);
 }
 
@@ -29,3 +26,5 @@ int	main(void)
 	L 19 mientras mi char es alfabetico.
 	L 21 Me devuele 1 que es verdadero. 
 	L 23 si no, devuelve 0 que es falso. */
+	
+
