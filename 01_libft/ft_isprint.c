@@ -10,27 +10,24 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
+#include "libft.h"
 
-int	ft_isprint(char *str)
+
+int	ft_isprint(....)
 
 {
-	int	i;
 
-	i = 0;
-	while ((str[i] != '\0'))
 	{
-		if ((str[i] >= 32 && str[i] <= 126))
-			i++;
-		else
-			return (0);
+		
 	}
 	return (1);
 }
 
-int	main(void)
+int	
 {
-	printf("%i", ft_isprint(" 55445"));
 	return (0);
 }
+/* "libft.h" es la biblioteca para las funciones con rutinas de caracteres ejemplo:...
+	Comprueba si un caráter es imprimible de la tabla ASCII incluido el espacio. 0 si el caráter es falso y 1 si el caráter es verdadero */
+
+
