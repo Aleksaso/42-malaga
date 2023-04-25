@@ -10,27 +10,26 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
+#include "libft.h"
 
-int	ft_isdigit(char *str)
+
+int	ft_isdigit(....)
 
 {
-	int	i;
-
-	i = 0;
-	while ((str[i] != '\0'))
+	
 	{
-		if ((str[i] >= '0' && str[i] <= '9'))
-			i++;
-		else
+		
 			return (0);
 	}
 	return (1);
 }
 
-int	main(void)
+int	
 {
-	printf("%i", ft_isdigit("kjh"));
+	
 	return (0);
 }
+/* "libft.h" es la biblioteca para las funciones con rutinas de caracteres ejemplo:...
+	Comprueba si el caráter es un dígito de 0 a 9... 0 si el caráter es falso y 1 si el caráter es verdadero */
+	
+
