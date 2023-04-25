@@ -13,7 +13,7 @@
 #include "libft.h"
 
 
-int	ft_isascii(char *str)
+int	ft_isascii(...)
 
 {
 	
