@@ -10,27 +10,27 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
+#include "libft.h"
+
 
 int	ft_isalnum(char *str)
 
 {
-	int	i;
 
-	i = 0;
-	while ((str[i] != '\0'))
+	
 	{
-		if ((str[i] >= 32 && str[i] <= 126))
-			i++;
-		else
-			return (0);
+	
 	}
 	return (1);
 }
 
-int	main(void)
+int	
 {
-	printf("%i", ft_isalnum("mlg"));
+	
 	return (0);
 }
+/* "libft.h" es la biblioteca para las funciones con rutinas de caracteres ejemplo:...
+Comprueba si el caráter es alfanumérico, es equivalente a ......
+int v el carácter que se comprobará. 0 si el caráter resulta falso y 1 si el caráter es verdadero.
+
+
