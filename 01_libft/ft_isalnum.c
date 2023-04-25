@@ -12,12 +12,9 @@
 
 #include "libft.h"
 
-
 int	ft_isalnum(char *str)
 
 {
-
-	
 	{
 	
 	}
@@ -32,5 +29,6 @@ int
 /* "libft.h" es la biblioteca para las funciones con rutinas de caracteres ejemplo:...
 Comprueba si el caráter es alfanumérico, es equivalente a ......
 int v el carácter que se comprobará. 0 si el caráter resulta falso y 1 si el caráter es verdadero.
+
 
 
